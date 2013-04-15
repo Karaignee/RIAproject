@@ -1,0 +1,63 @@
+﻿body 
+{
+    
+}
+
+#container {
+    width: 400px;
+    text-align: center;
+}
+
+h1 
+{
+    color:Red;
+    width: 400px;
+    font-family:sans-serif;
+     border: 1px solid #333;
+     border-radius: 10px;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+    
+    }
+ul 
+{
+    list-style:none;
+    }
+
+li 
+{
+    width:200px;
+    text-align:center;
+    margin-bottom:5px;
+    border: 1px solid #333;
+    background: pink;
+    cursor:pointer;
+ /* cursor pointer is the most important style aspect here, inherit order to now where to click  */
+    border-radius: 10px;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+    
+    overflow: hidden;
+    white-space: nowrap;
+    }
+    
+    li:hover 
+    {
+        background:  red;
+        
+        }
+        
+  #score
+  {
+      border: 1px solid #333;
+      border-radius: 10px;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+      
+      }   
